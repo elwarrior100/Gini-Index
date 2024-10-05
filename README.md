@@ -31,7 +31,7 @@ To install the project and its dependencies, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/census-data-scraper.git
+   git clone https://github.com/elwarrior100/Gini-Index.git
    cd census-data-scraper
 
 
