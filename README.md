@@ -20,6 +20,7 @@ This project requires the following Python packages:
 - `requests`
 - `pandas`
 - `openpyxl`
+- `coverage`
 - `sqlite3` (included with Python)
 
 You can install the required packages using the provided `requirements.txt`.
@@ -32,7 +33,7 @@ To install the project and its dependencies, follow these steps:
 
    ```bash
    git clone https://github.com/elwarrior100/Gini-Index.git
-   cd census-data-scraper
+   cd Gini-Index
 
 
 2. **Create a virtual environment (optional but recommended):**:
@@ -46,22 +47,22 @@ To install the project and its dependencies, follow these steps:
 
 1. **Usage**:
     ```bash
-    cd census-data-scraper
+    cd Gini-Index
     python -m src.main
 
 2. **Docker**:
     ```bash
-    cd census-data-scraper
-    docker build -t census-data-scraper .
+    cd Gini-Index
+    docker build -t Gini-Index .
     docker run census-data-scraper
 
 
 ## Testing
 1. **For Testing:**
     ```bash
-    python -m unittest discover -s tests -p "test_*.py"
-    coverage run -m unittest discover -s tests -p "test_*.py"
-    coverage html  
+    python -m unittest discover -s test -p "test_*.py"
+    python -m coverage run -m unittest discover -s test -p "test_*.py"
+    python -m coverage html  
 
 
     
