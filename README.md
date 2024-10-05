@@ -53,8 +53,8 @@ To install the project and its dependencies, follow these steps:
 2. **Docker**:
     ```bash
     cd Gini-Index
-    docker build -t Gini-Index .
-    docker run census-data-scraper
+    docker build -t gini-index .
+    docker run gini-index
 
 
 ## Testing
